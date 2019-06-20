@@ -7041,6 +7041,15 @@ nav ul {
   font-weight: bolder;
   color: orange; }
 
+.btn {
+  background-color: #313131;
+  border-color: none;
+  text-decoration: none;
+  color: #fcdde5; }
+
+.btn:hover {
+  background-color: #ee3558; }
+
 .grid {
   display: grid;
   grid-gap: 10px 10px;
@@ -7081,3 +7090,8 @@ nav ul {
 
 .level-3 {
   grid-row-end: span 3; }
+
+.f-estilo {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fcdde5; }

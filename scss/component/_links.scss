@@ -4,3 +4,16 @@
         color: orange;
     }
 }
+
+.btn {
+    background-color: #313131;
+    border-color: none;
+    text-decoration: none;
+    color: #fcdde5;
+}
+
+.btn {
+    &:hover {
+    background-color: #ee3558;
+    } 
+}
