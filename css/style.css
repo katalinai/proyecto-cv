@@ -7032,8 +7032,10 @@ nav ul {
   float: right;
   list-style: none; }
   nav ul li {
-    display: inline-block;
     margin-right: 10px; }
+    @media (min-width: 768px) {
+      nav ul li {
+        display: inline-block; } }
     nav ul li a {
       text-decoration: none; }
 
@@ -7054,7 +7056,9 @@ nav ul {
   display: grid;
   grid-gap: 10px 10px;
   margin: 30px auto;
-  width: 900px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 900px;
   grid-template-areas: "head head head" "container container container" "footer footer footer"; }
   .grid .b-p {
     display: grid;

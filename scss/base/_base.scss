@@ -15,9 +15,10 @@ nav {
         
         
         li {
-         display: inline-block;
-         margin-right: 10px;
-
+            margin-right: 10px;
+            @include media-breakpoint-up(md) {
+                display: inline-block;
+            }
             a {
                 text-decoration: none;
                 
